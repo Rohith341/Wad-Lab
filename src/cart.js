@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./cart.css";
+import img from "./imgsa.jpg"
 
 const Cart = () => {
   const [cart, setCart] = useState([
-    { id: 1, name: "Product 1", price: "$10.00", image: "https://via.placeholder.com/150" },
-    { id: 2, name: "Product 2", price: "$20.00", image: "https://via.placeholder.com/150" },
-    { id: 3, name: "Product 3", price: "$30.00", image: "https://via.placeholder.com/150" },
+    { id: 1, name: "Product 1", price: "$10.00", image: img },
+    { id: 2, name: "Product 2", price: "$20.00", image: img },
+    { id: 3, name: "Product 3", price: "$30.00", image: img },
     // Add more sample items as needed
   ]);
 

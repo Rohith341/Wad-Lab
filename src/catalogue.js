@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./catalogue.css";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import img from './mb.jpeg'
+import img from './mb_img.jpg'
 
 const products = [
   {
@@ -17,50 +17,50 @@ const products = [
     name: "Product 2",
     description: "Description of Product 2",
     price: "$20.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image: img
   },
   {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: "$30.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image: img
   },
   {
-    id: 1,
-    name: "Product 1",
+    id: 4,
+    name: "Product 4",
     description: "Description of Product 1",
     price: "$10.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image: img
   },
   {
-    id: 2,
-    name: "Product 2",
+    id: 5,
+    name: "Product 5",
     description: "Description of Product 2",
     price: "$20.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image:img
     
   },
   {
-    id: 3,
-    name: "Product 3",
+    id: 6,
+    name: "Product 6",
     description: "Description of Product 3",
     price: "$30.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image:img
   },
   {
-    id: 1,
-    name: "Product 1",
+    id: 7,
+    name: "Product 7",
     description: "Description of Product 1",
     price: "$10.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image: img
   },
   {
-    id: 2,
-    name: "Product 2",
+    id: 8,
+    name: "Product 8",
     description: "Description of Product 2",
     price: "$20.00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_BD-yGQL6mPjV5ytzpaxKVEiDm-mWn06v6w&s"
+    image:img
   },
  
   // Add more products as needed
