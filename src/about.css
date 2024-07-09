@@ -1,0 +1,57 @@
+/* about.css */
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px; /* Adjust spacing between top and bottom sections */
+}
+
+.left-content {
+  flex: 1;
+}
+
+.left-content h2 {
+  color: #00796b;
+}
+
+.left-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.right-image {
+  flex: 1;
+  margin-top: 50px;
+  padding-right: 50px ;
+
+  text-align: center;
+  
+}
+
+.right-image img {
+  max-width: 75%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-section {
+  width: 100%;
+}
+
+.bottom-content {
+  padding-top: 0px; /* Adjust top padding for bottom content */
+}
+
+.bottom-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
